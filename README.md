@@ -16,30 +16,30 @@ All interaction will occur through standard input and standard output.
 
 Fairy (base class; NEVER instantiated):
 
-  Must state his/her name and a greeting
-  Must ask what the user wants
-  Must respond to requests for wishes
-  Must respond to offers to help
+          Must state his/her name and a greeting
+          Must ask what the user wants
+          Must respond to requests for wishes
+          Must respond to offers to help
 
 Good Fairy (derived class):
 
-  Will always grant a wish
-  For each wish granted, the user gets 10 points
-  Will accept an offer for help once, but then decline additional offers
-  The user earns 50 points for the offer to help
-  Can grant up to 5 wishes
+          Will always grant a wish
+          For each wish granted, the user gets 10 points
+          Will accept an offer for help once, but then decline additional offers
+          The user earns 50 points for the offer to help
+          Can grant up to 5 wishes
 
 Evil Fairy (derived class):
 
-  Will always deny the user's wish; i.e., cannot grant any wishes
-  For each wish denied, the user loses 10 points
-  Will always reject an offer of help
-  For each offer rejected, the user loses 50 points
+          Will always deny the user's wish; i.e., cannot grant any wishes
+          For each wish denied, the user loses 10 points
+          Will always reject an offer of help
+          For each offer rejected, the user loses 50 points
 
 Equivocal Fairy (derived class):
 
-  Will grant the user's wish sometimes (based on a random number generator)
-  For each wish granted, the user gets 10 points
-  For each wish denied, the user loses 10 points
-  Will respond to an offer of help with the statement, "I'll think about it"
-  Can grant up to 3 wishes
+          Will grant the user's wish sometimes (based on a random number generator)
+          For each wish granted, the user gets 10 points
+          For each wish denied, the user loses 10 points
+          Will respond to an offer of help with the statement, "I'll think about it"
+          Can grant up to 3 wishes
